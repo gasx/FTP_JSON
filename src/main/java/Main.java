@@ -8,9 +8,9 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        String host = "";
-        String login = "";
-        String password = "";
+        String host = "188.120.250.102";
+        String login = "gasx";
+        String password = "0000";
 
         Scanner scanner = new Scanner(System.in);
         FTP ftp = new FTP(host, login, password, "users.json");
